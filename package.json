@@ -63,7 +63,7 @@
 , "bugs" :          { "mail" :  "node-mongodb-native@googlegroups.com"
                     , "url" :   "http://github.com/mongodb/node-mongodb-native/issues" }
 , "dependencies" : {
-  "bson": "~0.2"
+  "bson": "https://github.com/meteor/js-bson/tarball/0103b53"
 }
 , "devDependencies": {
       "dox": "0.4.4"
@@ -85,8 +85,7 @@
     , "mongodb-tools": "~1.0"
   }
 , "optionalDependencies": {
-      "kerberos": "0.0.9"
-    , "readable-stream": "latest"
+      "readable-stream": "latest"
   }
 , "config":         { "native" : false }
 , "main":             "./lib/mongodb/index"
