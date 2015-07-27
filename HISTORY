@@ -1,3 +1,31 @@
+1.4.39 07-23-2015
+-----------------
+- Allow use of passive replicaset servers for secondary reads.
+
+1.4.38 05-19-2015
+-----------------
+- NODE-463 db.close immediately executes its callback.
+
+1.4.37 2015-05-08
+-----------------
+- NODE-461 Tripping on error "no chunks found for file, possibly corrupt" when there is no error.
+
+1.4.36 2015-05-07
+-----------------
+- NODE-459 Fixed issue working around breaking changes in crypto lib in 0.10.x vs 0.8.x of node, that broke scram for mongodb 3.0.x.
+
+1.4.35 2015-03-21
+-----------------
+- NODE-389 error out if server does not return a reply or error in connection handler.
+
+1.4.34 2015-03-09
+-----------------
+- NODE-382 Added better SCRAM error handling
+
+1.4.33 2015-03-03
+-----------------
+- Backported NODE-376 Fixes issue - Unordered batch incorrectly tracks batch size when switching batch types (Issue #1261, https://github.com/meirgottlieb)
+
 1.4.32 2015-02-27
 -----------------
 - NODE-369 Unhandled exception while connecting
