@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "es6-promise": "3.2.1",
-    "mongodb-core": "2.1.15",
+    "mongodb-core": "https://github.com/meteor/mongodb-core/tarball/82608e807235ac744fc29d161ea1d75361a8f178",
     "readable-stream": "2.2.7"
   },
   "devDependencies": {
